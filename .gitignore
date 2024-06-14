@@ -624,3 +624,6 @@ dist
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Report generator
+CoverageReport/
