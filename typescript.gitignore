@@ -1,3 +1,6 @@
+# https://raw.githubusercontent.com/Granlund-Manager-Product-Development/gitignore/main/typescript.gitignore
+.idea/
+
 # https://raw.githubusercontent.com/github/gitignore/main/Global/VisualStudioCode.gitignore
 .vscode/*
 !.vscode/settings.json
