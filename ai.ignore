@@ -1,0 +1,39 @@
+# https://raw.githubusercontent.com/Granlund-Manager-Product-Development/gitignore/main/ai.gitignore
+
+# OpenCode
+.opencode/logs/
+.opencode/sessions/
+.opencode/cache/
+.opencode/tmp/
+.opencode/*.local.*
+.opencode/**/local.*
+tui.json
+
+# OpenAI Codex
+.codex/auth.json
+.codex/history.jsonl
+.codex/logs/
+.codex/cache/
+.codex/sessions/
+.codex/tmp/
+.codex/*.log
+
+# Anthropic Claude Code
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/sessions/
+CLAUDE.local.md
+
+# Google Gemini
+# TODO
+
+# Local scratch/output from agents
+.ai/
+.agent/
+.agent-scratch/
+.agent-output/
+
+# Agent-specific local overrides / scratch instructions
+AGENTS.local.md
+AGENTS.override.md
+GEMINI.local.md
